@@ -1,0 +1,65 @@
+{
+  "source_file": "data\\raw\\supermarket_sales.csv",
+  "rows_loaded": 500,
+  "rows_analyzed": 500,
+  "duplicate_rows_removed": 0,
+  "invalid_sales_rows_excluded": 0,
+  "missing_values_before_cleaning": {
+    "Invoice ID": 0,
+    "Date": 0,
+    "Branch": 0,
+    "City": 0,
+    "Customer Type": 0,
+    "Gender": 0,
+    "Product": 0,
+    "Category": 0,
+    "Quantity": 0,
+    "Unit Price": 0,
+    "Payment": 0,
+    "Rating": 0,
+    "Sales": 0
+  },
+  "sales_metric_source": "provided Sales column (compared with quantity × unit price)",
+  "sales_mismatch_count_tolerance_1_percent_or_2_currency_units": 0,
+  "total_sales": 244411.08,
+  "transaction_count": 500,
+  "average_transaction_sales": 488.82,
+  "median_transaction_sales": 335.91,
+  "average_customer_rating": 3.99,
+  "top_product_by_sales": {
+    "name": "Cheese",
+    "sales": 27906.3
+  },
+  "top_category_by_sales": {
+    "name": "Beverages",
+    "sales": 56108.24
+  },
+  "top_branch_by_sales": {
+    "name": "C",
+    "sales": 72469.45
+  },
+  "top_city_by_sales": {
+    "name": "Mumbai",
+    "sales": 72469.45
+  },
+  "most_used_payment_method": {
+    "name": "UPI",
+    "transactions": 127
+  },
+  "average_sales_by_customer_type": {
+    "Normal": 497.07,
+    "Member": 483.14
+  },
+  "column_mapping": {
+    "product": "Product",
+    "category": "Category",
+    "branch": "Branch",
+    "city": "City",
+    "customer_type": "Customer Type",
+    "quantity": "Quantity",
+    "unit_price": "Unit Price",
+    "sales": "Sales",
+    "payment": "Payment",
+    "rating": "Rating"
+  }
+}

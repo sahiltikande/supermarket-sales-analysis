@@ -1,0 +1,26 @@
+SUPERMARKET SALES ANALYSIS — GENERATED SUMMARY
+================================================
+Rows loaded: 500
+Rows analyzed: 500
+Duplicate rows removed: 0
+Invalid sales rows excluded: 0
+Sales source: provided Sales column (compared with quantity × unit price)
+Sales mismatches: 0
+Total sales: ₹244,411.08
+Average transaction sales: ₹488.82
+Median transaction sales: ₹335.91
+Average customer rating: 3.99/5
+
+Top product by sales: Cheese (₹27,906.30)
+Top category by sales: Beverages (₹56,108.24)
+Top branch by sales: C (₹72,469.45)
+Top city by sales: Mumbai (₹72,469.45)
+Most-used payment method: UPI (127 transactions)
+
+Average sales by customer type:
+  - Normal: ₹497.07
+  - Member: ₹483.14
+
+Interpretation: use high-revenue products/categories to inform stock planning,
+investigate branch differences before reallocating resources, and use payment
+and rating patterns to guide customer experience improvements.
